@@ -38,9 +38,9 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
-(3, 'Daily Buses'),
-(4, 'Weekly Buses'),
-(5, 'Night Buses');
+(3, 'Daily Taxies'),
+(4, 'Weekly Taxies'),
+(5, 'Night Taxies');
 
 -- --------------------------------------------------------
 
