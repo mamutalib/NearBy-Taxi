@@ -2,7 +2,7 @@
 
                 <!-- Blog Search Well -->
                 <div class="well">
-                    <h4>Bus Search</h4>
+                    <h4>Taxi Search</h4>
                     <form action="search.php" method="post">
 
                         
