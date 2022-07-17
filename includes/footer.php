@@ -3,12 +3,11 @@
         <footer id="myFooter" >
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <h5>Get started</h5>
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="registration.php">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
