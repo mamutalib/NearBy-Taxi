@@ -6,16 +6,15 @@
                 <div class="col-sm-2">
                     <h5>Get started</h5>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="index.php">Home Page</a></li>
                         <li><a href="registration.php">Sign up</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <h5>About us</h5>
                     <ul>
                         <li><a href="#">Company Information</a></li>
                         <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
