@@ -43,7 +43,7 @@
             <a href="https://plus.google.com/105830105730205723599" class="google"><i class="fa fa-google-plus"></i></a>
         </div>
         <div class="footer-copyright">
-            <p>© 2018 Copyright Prateek Saraswat </p>
+            <p>© 2022 Copyright NearByTaxi </p>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
