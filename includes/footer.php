@@ -20,14 +20,6 @@
                     </ul>
                 </div>
                 <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
                     <h5>Legal</h5>
                     <ul>
                         <li><a href="#">Terms of Service</a></li>
@@ -38,9 +30,9 @@
             </div>
         </div>
         <div class="social-networks">
-            <a href="https://twitter.com/PrateekMaster" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/prateek.saraswat.140" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="https://plus.google.com/105830105730205723599" class="google"><i class="fa fa-google-plus"></i></a>
+            <a href="https://fb.com/mamutalibcse" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://fb.com/100010579951188" class="facebook"><i class="fa fa-facebook"></i></a>
+           
         </div>
         <div class="footer-copyright">
             <p>© 2022 Copyright NearByTaxi </p>
