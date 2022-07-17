@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Busy Bus - Book Your Bus Ticket Online</title>
+    <title>NearByTaxi - Book Your Taxi From Us</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
