@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 18, 2018 at 04:24 AM
--- Server version: 10.1.30-MariaDB
--- PHP Version: 5.6.33
+-- Generation Time: Jul 18, 2022 at 09:26 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -38,7 +37,7 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
-(3, 'Daily Taxies'),
+(3, 'dgbhnm'),
 (4, 'Weekly Taxies'),
 (5, 'Night Taxies');
 
@@ -280,3 +279,7 @@ ALTER TABLE `query`
 ALTER TABLE `users`
   MODIFY `user_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
