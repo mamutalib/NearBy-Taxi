@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 18, 2022 at 09:26 PM
+-- Generation Time: Jul 18, 2022 at 09:35 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -37,7 +37,7 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
-(3, 'dgbhnm'),
+(3, 'Daily Taxis'),
 (4, 'Weekly Taxies'),
 (5, 'Night Taxies');
 
