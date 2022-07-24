@@ -34,8 +34,8 @@
                         $bus_cat = $row['post_category_id'];
                         $available_seats = $row['available_seats'];
                         $max_seats = $row['max_seats'];
-                        $bus_stations = split(" ",$bus_via);
-                        $bus_times = split(" ",$times);
+                        $bus_stations = explode(" ",$bus_via);
+                        $bus_times = explode(" ",$times);
                         ?>
 
                         <!-- First Blog Post -->
@@ -151,7 +151,8 @@
 
                                 ?>
 
-                                <button class="btn btn-primary" name="book" style="margin-left: 40%; margin-top: 15px;">Book Tickets</button>
+                                <!-- <button  class="btn btn-primary" name="book" style="margin-left: 40%; margin-top: 15px;">Book Tickets</button> -->
+                                <a href="receipt.php" class="btn btn-primary" name="book" style="margin-left: 40%; margin-top: 15px;"> Book Tickets</a>
 
                                 </form>
 

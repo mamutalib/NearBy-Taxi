@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 18, 2022 at 09:35 PM
+-- Generation Time: Jul 24, 2022 at 07:57 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -124,9 +124,9 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`post_id`, `post_category_id`, `post_title`, `post_author`, `post_date`, `post_image`, `post_content`, `post_source`, `post_destination`, `post_via`, `post_via_time`, `post_query_count`, `max_seats`, `available_seats`) VALUES
-(2, 3, 'Kanpur to Lucknow', 'Prateek Saraswat', '2018-04-26', 'bus2.jpg', 'Runs daily except Tuesday\r\nA/C Bus', 'Kanpur', 'Lucknow', 'Kanpur Unnao Lucknow', '6:00 8:00 11:00', 2, 20, 10),
-(3, 3, 'Delhi to Mumbai', 'Prateek', '2018-04-26', 'bus3.jpg', 'Runs daily \r\nLowest fare among all', 'Delhi', 'Mumbai', 'Delhi Jaipur Udaipur Naidad Surat Mumbai', '3:00 5:00 7:00 12:00 18:00 20:00', 1, 30, 17),
-(4, 5, 'Chennai to Bangolore', 'Prateek', '2018-05-18', 'bus4.jpg', 'Runs only on Tuesday', 'Chennai', 'Bangolore', 'Chennai Kanchipuram Chittor Bangolore', '12:00 2:00 5:00 7:00', 6, 0, -2),
+(2, 3, 'Kanpur to Lucknow', 'mutalib', '2022-07-25', 'bus2.jpg', 'Runs daily except Tuesday\r\nA/C Bus', 'Kanpur', 'Lucknow', 'Kanpur Unnao Lucknow', '6:00 8:00 11:00', 2, 20, 10),
+(3, 3, 'Dhaka to Sylhet', 'kopil', '2022-07-25', 'bus3.jpg', 'Runs daily \r\nLowest fare among all', 'Dhaka', 'Sylhet', 'Delhi Jaipur Udaipur Naidad Surat Mumbai', '3:00 5:00 7:00 12:00 18:00 20:00', 1, 30, 17),
+(4, 5, 'Chennai to Bangolore', 'Prateek', '2022-07-25', 'bus4.jpg', 'Runs only on Tuesday', 'Chennai', 'Bangolore', 'Chennai Kanchipuram Chittor Bangolore', '12:00 2:00 5:00 7:00', 6, 0, -2),
 (5, 3, 'Chandigarh to Manali', 'Prateek', '2019-06-03', 'bus5.jpg', 'Runs daily', 'Chandigarh', 'Manali', 'Chandigarh Panchkula Mandi Kullu Manali', '12:00 2:00 5:00 7:00 8:00', 0, 0, 0),
 (6, 4, 'Agra to Mathura', 'Prateek', '2018-04-26', 'bus1.jpg', 'Weekly', 'Agra', 'Mathura', 'Agra Mathura', '5:00 7:00', 0, 0, 0),
 (7, 4, 'Delhi to Allahabad', 'Prateek Saraswat', '2018-04-26', 'bus2.jpg', 'Runs Weekly', 'Delhi', 'Allahabad', 'Delhi Ghaziabad Aligarh Tundla Kanpur Fatehpur Allahabad', '12:00 2:00 5:00 7:00 8:00 9:00 10:00 11:00', 0, 10, 9),
