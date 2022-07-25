@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2022 at 07:57 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 7.4.29
+-- Generation Time: Jul 24, 2022 at 10:41 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -124,7 +124,7 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`post_id`, `post_category_id`, `post_title`, `post_author`, `post_date`, `post_image`, `post_content`, `post_source`, `post_destination`, `post_via`, `post_via_time`, `post_query_count`, `max_seats`, `available_seats`) VALUES
-(2, 3, 'Kanpur to Lucknow', 'mutalib', '2022-07-25', 'bus2.jpg', 'Runs daily except Tuesday\r\nA/C Bus', 'Kanpur', 'Lucknow', 'Kanpur Unnao Lucknow', '6:00 8:00 11:00', 2, 20, 10),
+(2, 3, 'Kanpur to Lucknow', 'mutalib', '2022-07-25', 'bus2.jpg', 'Runs daily except Tuesday\r\nA/C Bus', 'Kanpur', 'Lucknow', 'Kanpur Unnao Lucknow', '6:00 8:00 11:00', 6, 20, 10),
 (3, 3, 'Dhaka to Sylhet', 'kopil', '2022-07-25', 'bus3.jpg', 'Runs daily \r\nLowest fare among all', 'Dhaka', 'Sylhet', 'Delhi Jaipur Udaipur Naidad Surat Mumbai', '3:00 5:00 7:00 12:00 18:00 20:00', 1, 30, 17),
 (4, 5, 'Chennai to Bangolore', 'Prateek', '2022-07-25', 'bus4.jpg', 'Runs only on Tuesday', 'Chennai', 'Bangolore', 'Chennai Kanchipuram Chittor Bangolore', '12:00 2:00 5:00 7:00', 6, 0, -2),
 (5, 3, 'Chandigarh to Manali', 'Prateek', '2019-06-03', 'bus5.jpg', 'Runs daily', 'Chandigarh', 'Manali', 'Chandigarh Panchkula Mandi Kullu Manali', '12:00 2:00 5:00 7:00 8:00', 0, 0, 0),
@@ -159,7 +159,11 @@ INSERT INTO `query` (`query_id`, `query_bus_id`, `query_user`, `query_email`, `q
 (9, 2, 'Parteek', 'saraswat.prateek100@gmail.com', '2018-03-17', 'Good', 'no'),
 (10, 2, 'vikas', 'iit2016058@iiita.ac.in', '2018-03-18', 'Keep Going', 'no'),
 (11, 3, 'Prateek', 'iit2016058@iiita.ac.in', '2018-03-18', 'Good', 'no'),
-(13, 4, '(unknown)', 'iit2016054@iiita.ac.in', '2018-03-18', 'Hello', 'no');
+(13, 4, '(unknown)', 'iit2016054@iiita.ac.in', '2018-03-18', 'Hello', 'no'),
+(14, 2, '(unknown)', 'qdjam@emvil.com', '2022-07-25', 'Good Service', 'no'),
+(15, 2, '(unknown)', 'qdjam@emvil.com', '2022-07-25', 'Good Service', 'no'),
+(16, 2, '(unknown)', 'qdjam@emvil.com', '2022-07-25', 'Good Service', 'no'),
+(17, 2, '(unknown)', 'qdjam@emvil.com', '2022-07-25', 'Good Service', 'no');
 
 -- --------------------------------------------------------
 
@@ -203,7 +207,8 @@ INSERT INTO `users` (`user_id`, `username`, `user_password`, `user_firstname`, `
 (26, 'owner', 'saaru', 'Owner', 'Old', 'iit2016054@iiita.ac.in', '9784584566', 'user_default.jpg', 'subscriber'),
 (28, 'Hemu', 'heamnt', 'Hemant', 'Singh', 'iit2016070@iiita.ac.in', '9456213654', 'user_default.jpg', 'subscriber'),
 (29, 'vipul', 'vipul', 'Vipul', 'Singhal', 'iit2016049@iiita.ac.in', '9456213654', 'user_default_girl.jpg', 'subscriber'),
-(30, 'Pratyush', 'pratysh', 'Pratyush', 'Garg', 'pg@gmail.com', '9457865214', 'user_default.jpg', 'subscriber');
+(30, 'Pratyush', 'pratysh', 'Pratyush', 'Garg', 'pg@gmail.com', '9457865214', 'user_default.jpg', 'subscriber'),
+(31, 'mutalib', 'mutalib', 'Md.  Abdul', 'Mutalib', 'mutalibcse@yahoo.com', '0173344525', 'mutalib.jpg', 'subscriber');
 
 --
 -- Indexes for dumped tables
@@ -271,13 +276,13 @@ ALTER TABLE `posts`
 -- AUTO_INCREMENT for table `query`
 --
 ALTER TABLE `query`
-  MODIFY `query_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `query_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `user_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
